@@ -1,0 +1,834 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  color: #415167;
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+.section-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #415167;
+  margin: 0;
+}
+
+.header {
+  background-color: #415167;
+  margin-bottom: 100px;
+  padding: 50px 0;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .header-left {
+  width: 50%;
+}
+
+.header .container .header-left .header-left-logo {
+  margin-bottom: 70px;
+}
+
+.header .container .header-left .header-left-logo .header-left-logo-top {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  text-align: left;
+  color: #edf0f5;
+  margin: 0;
+  letter-spacing: 15px;
+  font-family: 'Limelight', cursive;
+}
+
+.header .container .header-left .header-left-logo .header-left-logo-bottom {
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #edf0f5;
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+  font-size: 12px;
+}
+
+.header .container .header-left .header-left-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header .container .header-left .header-left-menu .header-left-menu-item {
+  margin-bottom: 30px;
+}
+
+.header .container .header-left .header-left-menu .header-left-menu-item .header-left-menu-item-link {
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #edf0f5;
+  text-decoration: none;
+}
+
+.header .container .header-right {
+  width: 50%;
+}
+
+.header .container .header-right .header-right-img {
+  width: 100%;
+}
+
+.features {
+  margin-bottom: 100px;
+}
+
+.features .features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features .features-list .features-list-item {
+  width: 25%;
+  text-align: center;
+  margin-right: 70px;
+}
+
+.features .features-list .features-list-item:last-child {
+  margin-right: 0;
+}
+
+.features .features-list .features-list-item .features-list-item-img {
+  margin-bottom: 40px;
+}
+
+.features .features-list .features-list-item .features-list-item-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #151d28;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.features .features-list .features-list-item .features-list-item-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #151d28;
+}
+
+.coffee {
+  background-color: #f2f2f2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.coffee .coffee-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.coffee .coffee-cards:last-child {
+  margin-bottom: 0;
+}
+
+.coffee .coffee-cards .coffee-cards-item {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #fff;
+  margin-right: 30px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.coffee .coffee-cards .coffee-cards-item:last-child {
+  margin-right: 0;
+}
+
+.coffee .coffee-cards .coffee-cards-item .coffee-cards-item-img {
+  margin: 0;
+  margin-right: 42px;
+}
+
+.coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-price {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 8px;
+  color: #c7a17a;
+}
+
+.coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 24px;
+  color: #151d28;
+}
+
+.coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 18px;
+  color: #151d28;
+}
+
+.coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-buttons .coffee-cards-item-text-buttons-left-button {
+  background-color: #c7a17a;
+  color: #edf0f5;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+  width: 134px;
+  height: 32px;
+  border-radius: 100px;
+  margin-right: 18px;
+}
+
+.coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-buttons .coffee-cards-item-text-buttons-right-button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #151d28;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+.giftset {
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.giftset .giftset-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.giftset .giftset-main .giftset-main-left {
+  width: 50%;
+}
+
+.giftset .giftset-main .giftset-main-left .giftset-main-left-img {
+  width: 100%;
+}
+
+.giftset .giftset-main .giftset-main-right {
+  width: 50%;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-price {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #c7a17a;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #415167;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #415167;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 38px;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-features:last-child {
+  margin-right: 0;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-features .giftset-main-right-features-img {
+  margin-right: 12px;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-features .giftset-main-right-features-text {
+  margin-bottom: 46px;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-features .giftset-main-right-features-text .giftset-main-right-features-text-top {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #415167;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-features .giftset-main-right-features-text .giftset-main-right-features-text-bottom {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #415167;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-buttons .giftset-main-right-features-buttons-button-left {
+  background-color: #c7a17a;
+  color: #edf0f5;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+  width: 134px;
+  height: 32px;
+  border-radius: 100px;
+  margin-right: 18px;
+}
+
+.giftset .giftset-main .giftset-main-right .giftset-main-right-buttons .giftset-main-right-features-buttons-button-right {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #151d28;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+.combo {
+  background-color: #f2f2f2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.combo .combo-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.combo .combo-main .combo-main-card {
+  background-color: #fff;
+  padding-bottom: 42px;
+  margin-right: 30px;
+  width: 33.333%;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.combo .combo-main .combo-main-card:last-child {
+  margin-right: 0;
+}
+
+.combo .combo-main .combo-main-card .combo-main-card-img {
+  width: 100%;
+}
+
+.combo .combo-main .combo-main-card .combo-main-card-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0;
+  margin-left: 42px;
+  margin-top: 42px;
+  margin-bottom: 10px;
+}
+
+.combo .combo-main .combo-main-card .combo-main-card-price .combo-main-card-price-left {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #c7a17a;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.combo .combo-main .combo-main-card .combo-main-card-price .combo-main-card-price-right {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  text-decoration: line-through;
+  color: #415167;
+}
+
+.combo .combo-main .combo-main-card .combo-main-card-title {
+  margin: 0;
+  margin-left: 42px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #415167;
+  margin-bottom: 10px;
+}
+
+.combo .combo-main .combo-main-card .combo-main-card-text {
+  margin: 0;
+  margin-left: 42px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #415167;
+  margin-bottom: 32px;
+  margin-right: 42px;
+}
+
+.combo .combo-main .combo-main-card .combo-main-card-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0;
+  margin-left: 42px;
+}
+
+.combo .combo-main .combo-main-card .combo-main-card-buttons .combo-main-card-buttons-button-left {
+  background-color: #c7a17a;
+  color: #edf0f5;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+  width: 134px;
+  height: 32px;
+  border-radius: 100px;
+  margin-right: 18px;
+}
+
+.combo .combo-main .combo-main-card .combo-main-card-buttons .combo-main-card-buttons-button-right {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #151d28;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+.footer .footer-text {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+  .coffee .coffee-cards {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .coffee .coffee-cards:last-child {
+    margin-bottom: 0;
+  }
+  .coffee .coffee-cards .coffee-cards-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .coffee .coffee-cards .coffee-cards-item:last-child {
+    margin-bottom: 0;
+  }
+  .combo .combo-main {
+    display: block;
+  }
+  .combo .combo-main .combo-main-card {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 50%;
+  }
+  .combo .combo-main .combo-main-card:last-child {
+    margin-bottom: 0;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: none;
+  }
+  .features .features-list {
+    display: block;
+  }
+  .features .features-list .features-list-item {
+    width: 50%;
+    margin-right: 0;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  .features .features-list .features-list-item:last-child {
+    margin: 0 auto;
+  }
+  .features .features-list .features-list-item .features-list-item-img {
+    margin-bottom: 20px;
+  }
+  .giftset .giftset-main {
+    display: block;
+  }
+  .giftset .giftset-main .giftset-main-left {
+    width: 100%;
+  }
+  .giftset .giftset-main .giftset-main-left .giftset-main-left-img {
+    width: 100%;
+  }
+  .giftset .giftset-main .giftset-main-right {
+    width: 100%;
+  }
+  .combo .combo-main {
+    display: block;
+  }
+  .combo .combo-main .combo-main-card {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+  .combo .combo-main .combo-main-card:last-child {
+    margin-bottom: 0;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .coffee .coffee-cards {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .coffee .coffee-cards:last-child {
+    margin-bottom: 0;
+  }
+  .coffee .coffee-cards .coffee-cards-item {
+    width: 100%;
+    display: block;
+    margin-right: 0px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .coffee .coffee-cards .coffee-cards-item:last-child {
+    margin: 0 auto;
+  }
+  .coffee .coffee-cards .coffee-cards-item .coffee-cards-item-img {
+    width: 100%;
+    margin: 0;
+  }
+  .coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-price {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #c7a17a;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-title {
+    margin-left: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #415167;
+    margin-bottom: 10px;
+  }
+  .coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-subtitle {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 0;
+    margin-left: 30px;
+  }
+  .coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-buttons .coffee-cards-item-text-buttons-left-button {
+    background-color: #c7a17a;
+    color: #edf0f5;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 32px;
+    border-radius: 100px;
+    margin-right: 5px;
+  }
+  .coffee .coffee-cards .coffee-cards-item .coffee-cards-item-text .coffee-cards-item-text-buttons .coffee-cards-item-text-buttons-right-button {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #151d28;
+    background-color: #fff;
+    border: none;
+    outline: none;
+  }
+  .combo .combo-main {
+    display: block;
+  }
+  .combo .combo-main .combo-main-card {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .combo .combo-main .combo-main-card:last-child {
+    margin: 0 auto;
+  }
+  .combo .combo-main .combo-main-card .combo-main-card-img {
+    width: 100%;
+  }
+  .combo .combo-main .combo-main-card .combo-main-card-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .combo .combo-main .combo-main-card .combo-main-card-price .combo-main-card-price-left {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #c7a17a;
+    margin: 0;
+    margin-right: 20px;
+  }
+  .combo .combo-main .combo-main-card .combo-main-card-price .combo-main-card-price-right {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    text-decoration: line-through;
+    color: #415167;
+  }
+  .combo .combo-main .combo-main-card .combo-main-card-title {
+    margin: 0;
+    margin-left: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #415167;
+    margin-bottom: 10px;
+  }
+  .combo .combo-main .combo-main-card .combo-main-card-text {
+    margin: 0;
+    margin-left: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #415167;
+    margin-bottom: 32px;
+    margin-right: 30px;
+  }
+  .combo .combo-main .combo-main-card .combo-main-card-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 0;
+    margin-left: 30px;
+  }
+  .combo .combo-main .combo-main-card .combo-main-card-buttons .combo-main-card-buttons-button-left {
+    background-color: #c7a17a;
+    color: #edf0f5;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 32px;
+    border-radius: 100px;
+    margin-right: 5px;
+  }
+  .combo .combo-main .combo-main-card .combo-main-card-buttons .combo-main-card-buttons-button-right {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #151d28;
+    background-color: #fff;
+    border: none;
+    outline: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
